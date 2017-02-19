@@ -1,0 +1,188 @@
+/*sahib*/
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+/*description section*/
+#description{
+	width: 100%;
+	height: 560px;
+	background: url(../images/cockpit.jpg) no-repeat;
+	overflow: hidden;
+	background-size: 100%;
+	background-position: left;
+}
+#description .descriptionRight{
+	height: 100%;
+	width: 50%;
+	float: right;
+	/*margin-top: 55px;*/
+}
+#description .descriptionRight div{
+	opacity: 0.8;
+
+}
+#description .descriptionRight div img{
+	margin: 35px;
+
+}
+#description .descriptionRight div p{
+	margin-bottom: 75px;
+
+}
+#description .descriptionRight div a{
+	margin-top: 25px;
+
+}
+#description .descriptionRight .army{
+	background: #534b49;
+	height: 33.33%;
+	margin: 0 auto;
+}
+#description .descriptionRight .army img{
+	float: left;
+}
+#description .descriptionRight .army div:nth-child(2) a{
+	margin-top: 50px;
+}
+#description .descriptionRight .army div:nth-child(2) p{
+	color: white;
+	
+}
+
+
+#description .descriptionRight .navy{
+	background: #212e3d;
+	height: 33.33%;
+}
+#description .descriptionRight .navy img{
+	float: left;
+}
+#description .descriptionRight .navy div:nth-child(2) a{
+	margin-top: 50px;
+	
+}
+#description .descriptionRight .navy div:nth-child(2) p{
+	color: white;
+	
+}
+
+
+#description .descriptionRight .airforce{
+	background: #0f2765;
+	height: 33.33%;
+}
+#description .descriptionRight .airforce img{
+	float: left;
+}
+#description .descriptionRight .airforce div:nth-child(2) p{
+	color: white;
+	
+}
+#description .descriptionRight .airforce div:nth-child(2) a{
+		margin-top: 50px;
+
+}
+#description .descriptionRight a{
+	text-decoration: none;
+}
+#description .descriptionRight a:link{
+	color: #b26d42;
+}
+
+/*news secion*/
+
+#news{
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	margin-top: 25px;
+}
+#news .wrapper p{
+	margin: 0;
+	padding: 10;
+
+}
+#news div{
+	margin-top: 15px;
+}
+#news .wrapper .bottom{
+	float: left;
+	display: inline-flex;
+}
+#news .bottom .bottomLeft{
+	float: left;
+}
+#news .bottom .bottomRight{
+	width: 500px;
+	height: 400px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+#news .bottom .bottomRight>div{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#news .bottom .bottomRight>div>div>h3{
+	margin-top: -5px;
+}
+#news .bottom .bottomRight>div>div{
+	margin-left: 15px;
+}
+
+#news p,h3{
+	color: #888888
+}
+
+#news .wrapper a{
+	text-decoration: none;
+}
+#news .wrapper a:link{
+	color: #b26d42;
+}
+#news .wrapper .bottomLeft a{
+	background-color: #b26d42;
+	color: white;
+	padding: 5px;
+}
+
+
+/*footer*/
+
+#footer{
+	width: 100%;
+	height: 150px;
+	background: #000000;
+}
+
+#footer .wrapper .copy{
+	float: left;
+	
+}
+
+#footer .wrapper .temp{
+	float: right;
+	
+}
+#footer .wrapper a{
+	text-decoration: none;
+}
+
+#footer .wrapper a:link{
+	color:white;
+}
